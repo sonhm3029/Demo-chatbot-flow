@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "jsx": "react",
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@container/*": ["src/container/*"],
+        "@constants/*": ["src/constants/*"],
+        "@assets/*": ["src/assets/*"],
+        "@images/*": ["src/assets/images/*"],
+        "@utils/*": ["src/utils/*"],
+        "@hook/*": ["src/hook/*"],
+        "@src/*": ["src/*"],
+        "@redux/*": ["src/redux/*"],
+        "@core/*": ["src/core/*"],
+        "@stories/*": ["src/stories/*"]
+      }
+    },
+    "exclude": ["node_modules"]
+  }
+  
